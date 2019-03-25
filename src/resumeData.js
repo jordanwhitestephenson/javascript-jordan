@@ -27,8 +27,8 @@ let resumeData = {
     "website":"https://rbhatia46.github.io",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
+        "UniversityName":"Galvanize Fullstack Web Immersive",
+        "specialization":"",
         "MonthOfPassing":"Aug",
         "YearOfPassing":"2020",
         "Achievements":"Some Achievements"
