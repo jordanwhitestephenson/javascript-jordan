@@ -97,8 +97,8 @@ let resumeData = {
         "name":"Some technical guy"
       },
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description": "Jordan did a great a job building an entirely new way of generating code for GTM initiatives. The template builder keeps us efficient, and allows us to use our developer resources better in the future.",
+        "name":"Nick Kuhl - "
       }
     ]
   }
