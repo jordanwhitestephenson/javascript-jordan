@@ -1,0 +1,4 @@
+[build]
+base = "React-Portfolio/"
+publish = "React-Portfolio/build/"
+command = "yarn build"
