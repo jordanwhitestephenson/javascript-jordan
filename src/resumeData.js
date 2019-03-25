@@ -1,19 +1,19 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
+    "name": "Jordan Stephenson",
+    "role": "Creative Web Developer",
+    "linkedinId": "jordan-stephenson",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": "With experience working across an array(pun intended!) of full stack web technologies, I have real passion for design and seemless user experience. I am Denver-lover and an absolute technology geek. I love geeking out on all things JavaScript and React. I have a high passion for building user-focused websites and always wanting to learn more. As a former NCAA Oklahoma State Team Captain, I thrive on teamwork and grit. Coding has everything I love: structure, analysis, language, logic, creativity and intellectual stimulation. As a self-proclaimed challenge-junkie, I am always on the look out for new technologies to learn, hackathons to attend, and new fourteeners to conquer..",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url": "https://www.linkedin.com/in/jordan-stephenson/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url": "https://github.com/jordanwhitestephenson",
           "className":"fa fa-github"
         },
         {
@@ -23,7 +23,7 @@ let resumeData = {
         }
       ],
     "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
+    "address":"Denver, CO",
     "website":"https://rbhatia46.github.io",
     "education":[
       {
