@@ -18,6 +18,7 @@ export default class Testimonials extends Component {
                         <li>
                           <blockquote>
                             <p>
+                            
                             {item.description}
                             </p>
                             <cite>{item.name}</cite>

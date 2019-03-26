@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Chart from '../components/wordcloud.jpg'
 export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -21,9 +22,7 @@ export default  class Resume extends Component {
                           <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-                          <p>
-                          {item.Achievements}
-                          </p>
+                    {item.Achievements.map(achievement => <li> {achievement}</li>)}
                        </div>
                     </div>
                   )
@@ -46,9 +45,9 @@ export default  class Resume extends Component {
                           <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                          <p>
-                          {item.Achievements}
-                          </p>
+                      
+                        {item.Achievements.map(achievement => <li> {achievement}</li>)}
+  
                        </div>
 
                     </div>
@@ -73,8 +72,9 @@ export default  class Resume extends Component {
                </p>
 
    				<div className="bars">
-
-   				   <ul className="skills">
+         < img src = { Chart}  className = "item-img" / >
+              {/* <ul className="skills">
+      
                 {
                   resumeData.skills && resumeData.skills.map((item) => {
                     return(
@@ -86,7 +86,7 @@ export default  class Resume extends Component {
                   })
                 }
 
-   					</ul>
+   					</ul> */}
 
    				</div>
 
